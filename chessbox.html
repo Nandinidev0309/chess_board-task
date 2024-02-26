@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess board</title>
+    <script src="https://kit.fontawesome.com/2c1a1e78a7.js" crossorigin="anonymous"></script>
+    <style>
+        /* .top{
+            display: flex;
+            gap: 1px;
+            border: 1px rgb(159, 206, 159) solid;  
+        }
+         .box1{
+            background-color: black;
+            border: 1px rgb(167, 218, 167) solid;
+            
+            height: 100px;
+            width: 100px; 
+            
+        }  
+        .bottom{
+            display: flex;
+        }
+        .box2{
+            background-color: white;
+            border: 1px rgb(167, 211, 167) solid;
+            height: 100px;
+            width: 100px;
+        } */
+        .top{
+            display: flex;
+        }
+        
+       .box1:nth-child(2n){
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        color: white;
+       }
+       .box1:nth-child(2n+1){
+        background-color:white;
+        height: 100px;
+        width: 100px;
+        
+       }
+       .box1{
+        font-size: 70px;
+        text-align: center;
+       }
+
+       .bottom{
+            display: flex;
+        }
+       .box2:nth-child(2n){
+        background-color:white;
+        height: 100px;
+        width: 100px;
+       }
+       .box2:nth-child(2n+1){
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        color: white;
+       }
+       .box2{
+        font-size: 70px;
+        text-align: center;
+       }
+       .box1:hover{
+        transform: scale(1.5);
+       }
+       .box2:hover{
+        transform: scale(2.0);
+       }
+       
+
+    
+
+    </style>
+</head>
+<body>
+
+   <div class="top">
+        <div class="box1">&#9814;</div>
+        <div class="box1">&#9816;</div>
+        <div class="box1">&#9815;</div>
+        <div class="box1">&#9813;</div>
+        <div class="box1">&#9812;</div>
+        <div class="box1">&#9815;</div>
+        <div class="box1">&#9816;</div>
+        <div class="box1">&#9814;</div>
+    </div>
+
+    <div class="bottom">
+        <div class="box2 ">&#x265F;</div>
+        <div class="box2 ">&#x265F;</div>
+        <div class="box2 ">&#x265F;</div>
+        <div class="box2">&#x265F;</div>
+        <div class="box2 ">&#x265F;</div>
+        <div class="box2">&#x265F;</div>
+        <div class="box2 ">&#x265F;</div>
+        <div class="box2 ">&#x265F;</div>
+    </div> 
+    <div class="top">
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1"></div>
+        <div class="box1 "></div>
+        <div class="box1"></div>
+        <div class="box1 "></div>
+    </div>
+    <div class="bottom">
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2"></div>
+        <div class="box2 "></div>
+        <div class="box2"></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+    </div> 
+    <div class="top">
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1 "></div>
+        <div class="box1"></div>
+        <div class="box1 "></div>
+        <div class="box1"></div>
+        <div class="box1 "></div>
+    </div>
+    <div class="bottom">
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+        <div class="box2"></div>
+        <div class="box2 "></div>
+        <div class="box2"></div>
+        <div class="box2 "></div>
+        <div class="box2 "></div>
+    </div> 
+    <div class="top">
+        <div class="box1 ">&#x265F;</div>
+        <div class="box1 ">&#x265F;</div>
+        <div class="box1 ">&#x265F;</div>
+        <div class="box1 ">&#x265F;</div>
+        <div class="box1">&#x265F;</div>
+        <div class="box1 ">&#x265F;</div>
+        <div class="box1">&#x265F;</div>
+        <div class="box1 ">&#x265F;</div>
+    </div>
+    <div class="bottom">
+        <div class="box2 ">&#9814;</div>
+        <div class="box2 ">&#9816;</div>
+        <div class="box2 ">&#9815;</div>
+        <div class="box2">&#9813;</div>
+        <div class="box2 ">&#9812;</div>
+        <div class="box2">&#9815;</div>
+        <div class="box2 ">&#9816;</div>
+        <div class="box2 ">&#9814;</div>
+    </div> 
+
+
+</body>
+</html>
